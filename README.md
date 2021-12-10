@@ -1,3 +1,5 @@
+https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864
+
 # fast_api_bootstrap
 Personnal project to learn how to render custom html within fastapi.
 use of Bootstrap to customise layout of html

@@ -6,6 +6,10 @@ This project uses [FastAPI](https://fastapi.tiangolo.com/), [Jinja2](https://jin
 Please read <a href="https://levelup.gitconnected.com/building-a-website-starter-with-fastapi-92d077092864">my Medium article.</a>
 </p>
 <p>
+Project objective is to understand how to rander custom html whithin fast api.
+Test of sidebar, nav bar and collapse components of bootstrap library
+</p>
+<p>
 This project uses <a href="https://fastapi.tiangolo.com/">FastAPI</a>, <a href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja2</a>, and <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap4</a>.
 </p>
 </div>
