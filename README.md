@@ -4,38 +4,38 @@ use of Bootstrap to customise layout of html
 
 
 # Project tree:
-├── app
-│   ├── __init__.py
-│   ├── library
-│   │   ├── helpers.py
-│   │   ├── __init__.py
-│   ├── main.py
-│   ├── pages
-│   │   ├── about.md
-│   │   ├── home.md
-│   │   └── info.md
-│   └── routers
-│       ├── accordion.py
-│       ├── __init__.py
-│       ├── twoforms.py
-│       └── unsplash.py
-├── README.md
-├── requirements.txt
-├── static
-│   ├── css
-│   │   ├── mystyle.css
-│   │   └── style3.css
-│   └── images
-│       ├── favicon.ico
-└── templates
-    ├── accordion.html
-    ├── base.html
-    ├── include
-    │   ├── sidebar.html
-    │   └── topnav.html
-    ├── page.html
-    ├── twoforms.html
-    └── unsplash.html
+├── app <br />
+│   ├── __init__.py   <br />
+│   ├── library <br />
+│   │   ├── helpers.py <br />
+│   │   ├── __init__.py <br />
+│   ├── main.py <br />
+│   ├── pages <br />
+│   │   ├── about.md <br />
+│   │   ├── home.md <br />
+│   │   └── info.md <br />
+│   └── routers <br />
+│       ├── accordion.py <br />
+│       ├── __init__.py <br />
+│       ├── twoforms.py <br />
+│       └── unsplash.py <br />
+├── README.md <br />
+├── requirements.txt <br />
+├── static <br />
+│   ├── css <br />
+│   │   ├── mystyle.css <br />
+│   │   └── style3.css <br />
+│   └── images <br />
+│       ├── favicon.ico <br />
+└── templates <br />
+    ├── accordion.html <br />
+    ├── base.html <br />
+    ├── include <br />
+    │   ├── sidebar.html <br />
+    │   └── topnav.html <br />
+    ├── page.html <br />
+    ├── twoforms.html <br />
+    └── unsplash.html <br />
 
 # app :
 ## library :
