@@ -41,8 +41,8 @@ use of Bootstrap to customise layout of html
 
 # app :
 ## library :
-helpers.py :
-You can add all your helper codes in the app/library directory.
+helpers.py : <br />
+You can add all your helper codes in the app/library directory. <br />
 Here we add a helper function. This function takes a markdown file in the app/pages and convert it to HTML and return it..
 ## pages :
 All the website pages written in markdown format
@@ -52,10 +52,10 @@ https://fastapi.tiangolo.com/tutorial/bigger-applications/
 Structure API code and create a different path per API module (main, accordion, twoforms....)
 
 ## twoforms.py
-Line 1: We import Form from fastapi.
-Line 2: Add HTMLResponse for rendering HTML.
-Line 15 & 21: We create two different end-points.
-Line 16 & 22: We specify the number parameter. The number field will be uploaded as form data and receive it in each post function.
+Line 1: We import Form from fastapi. <br />
+Line 2: Add HTMLResponse for rendering HTML. <br />
+Line 15 & 21: We create two different end-points. <br />
+Line 16 & 22: We specify the number parameter. The number field will be uploaded as form data and receive it in each post function. <br />
 
 same concept apply for other routers
 
@@ -72,22 +72,22 @@ All html template used by fastapi to display api results and forms.
 Components bootstraps
 
 ## base html :
-Main Jinja template with common code used in each different website pages.
-Jinja template uses {% block head %}{% end block %}, {% block page_content %}{% endblock %}
-and {% block scripts %}{%endblock %} to insert contents from a child HTML.
-Use {% include 'include/sidebar.html' %} to include another HTML file.
+Main Jinja template with common code used in each different website pages. <br />
+Jinja template uses {% block head %}{% end block %}, {% block page_content %}{% endblock %} <br />
+and {% block scripts %}{%endblock %} to insert contents from a child HTML. <br />
+Use {% include 'include/sidebar.html' %} to include another HTML file. <br />
 
 ## page.html
-{% extends "base.html" %} tells the template engine that this template “extends” another template, the base.html
+{% extends "base.html" %} tells the template engine that this template “extends” another template, the base.html <br />
  The{{ super() }} makes sure to load the parent contents
 
 ## twoforms :
-Line 14–16: Jinja’s if-statement to show the result.
+Line 14–16: Jinja’s if-statement to show the result. <br />
 By using {{variable}}, we show the value sent from the app/twoforms.py file.
 
 Same concept apply for accordion
 
 ## Global information :
-If new pages are created :
- Uupdate templates/include/sidebar and templates/include/topnav.
+If new pages are created : <br />
+ Uupdate templates/include/sidebar and templates/include/topnav. <br />
 Allows us to add this pages in the navbar and side bar
