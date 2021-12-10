@@ -27,7 +27,6 @@ use of Bootstrap to customise layout of html
 │   │   └── style3.css
 │   └── images
 │       ├── favicon.ico
-│       └── favicon.ico:Zone.Identifier
 └── templates
     ├── accordion.html
     ├── base.html
@@ -66,6 +65,9 @@ Project images
 
 # templates :
 All html template used by fastapi to display api results and forms.
+
+## include
+Components bootstraps
 
 ## base html :
 Main Jinja template with common code used in each different website pages.

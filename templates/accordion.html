@@ -15,7 +15,7 @@
 <h1 class="cap">Accordion</h1>
 
 {% if tag %}
-<h2>Your selected {{tag}}</h2>
+<h2>Your selection is a {{tag}}</h2>
 {% endif %}
 
 {% set flora = ['flower','tree','fruit','garden'] %}
@@ -26,11 +26,10 @@
     <div class="card">
       <div class="card-header" id="headingOne">
         <h2 class="mb-0">
-          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+          <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
             aria-controls="collapseOne">
             FLORA
           </button>
-
         </h2>
       </div>
 
@@ -60,7 +59,7 @@
     <div class="card">
       <div class="card-header" id="headingTwo">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+          <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
             aria-controls="collapseTwo">
             FAUNA
           </button>
